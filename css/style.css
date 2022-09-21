@@ -10,7 +10,7 @@
 	top:0;
 	left:0;
 	width:100%;
-	z-index=4;
+	z-index:2;
 }
 /*topbar start*/
 .topbar{
@@ -96,7 +96,7 @@
 /*banner section start */
 .banner-section{
 	width:100%;
-	background-image:url("hero.jpg");
+	background-image: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 70%)),url("../images/hero.jpg");
 	background-size:cover;
 	background-attachment: fixed;
 }
@@ -137,7 +137,7 @@
 .advantage-section{
 	height: 582px;
 	width: 100%;
-	background-image: linear-gradient(rgb(0 0 0 / 68%),rgba(0 0 0 / 74%)), url(about-bg.jpg);
+	background-image: linear-gradient(rgb(0 0 0 / 68%),rgba(0 0 0 / 74%)), url("../images/about-bg.jpg");
 	background-size:cover;
 	background-attachment:fixed;
 }
@@ -424,7 +424,7 @@
 /*special section end*/	
 /*event section start*/
 .event{
-	background-image: linear-gradient(rgb(0 0 0 / 80%), rgb(0 0 0 / 80%)), url(events-bg.jpg);
+	background-image: linear-gradient(rgb(0 0 0 / 80%), rgb(0 0 0 / 80%)), url("../images/events-bg.jpg");
 	background-size:cover;
 	background-attachment: fixed;
 }
@@ -572,8 +572,131 @@
 }
 
 /*gallery section end*/
+/*map section start*/
+.map{
+	background: #0c0b09;
+}
+.map-div{
+	padding: 45px 60px;
+}
+.map-content{
+	width:100%;
+}
 
+/*map section end*/
 
+/*form2 section start*/
+.section-contus{
+	background-color:#0c0b09;
+}
+.map{
+	width:100%;
+	
+}
+.section-contus1{
+	background-color:#0c0b09;
+}
+.contusdiv{
+	padding: 45px 60px;
+	display:flex;
+}
+.formchef{
+	width:40%;
+	padding:20px;
+}
+
+.info{
+	width:100%;
+	display:flex;
+	padding:20px;
+
+}
+.info-icon{
+	width:10%;
+	padding:10px;
+}
+.info-icon i{
+	border-radius:50%;
+	font-size: 20px;
+	color:white;
+	padding:10px;
+	background-color:#cda45e;
+}
+.info-add{
+	width:90%;
+	padding: 0px 25px;
+}
+.info-add h3{
+	color:white;
+	font-family: "Open Sans", sans-serif;
+}
+.info-add p{
+	color:#bab3a6;
+	font-size:14px;
+	font-family: "Open Sans", sans-serif;
+	padding:5px 0px;
+}
+
+.mapform{
+	width:60%;
+	padding:40px 0px;
+}
+.map-input{
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+}
+.map-input div{
+	width:50%;
+	padding:10px;
+}
+.map-input div input{
+	width:100%;
+	padding:15px 10px;
+	border:1px solid #625b4b;
+    background: #0c0b09;
+}
+.map-input2 {
+	width:100%;
+	padding:10px;
+}
+.map-input2 input{
+	width:100%;
+	padding:15px 10px;
+	border:1px solid #625b4b;
+    background: #0c0b09;
+}
+.map-input3{
+	width:100%;
+	padding:10px;
+}
+.map-input3 textarea{
+	width:100%;
+	font-size: 14px;
+	 background: #0c0b09;
+	 border:1px solid #625b4b;
+	height:180px;
+	padding:10px;
+}
+.map-input4 {
+	width:100%;
+	padding:10px;
+	text-align:center;
+}
+.map-input4 input{
+	border: 2px solid #cda45e;
+	letter-spacing:1px;
+	font-size:15px;
+	text-decoration:none;
+	padding:10px 30px;	
+	color:white;
+	border-radius:25px;
+	background-color:#cda45e;
+	
+}
+
+ 
+/*form2 section end*/
 /*last section start*/ 
 .section-link{
 	background-color: #0c0b09;
